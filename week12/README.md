@@ -39,7 +39,11 @@ test_analysis.py::test_mini_1반_평균 PASSED                              [100
 ============================== 4 passed ===============================
 ```
 
-공백 제거 두 줄을 주석 처리하거나 점수 범위를 0~1000으로 바꾸면 테스트가 실패하는 것도 확인했습니다(`제출자료/pytest_실험*.txt`).
+공백 제거 두 줄을 주석 처리하거나 점수 범위를 0~1000으로 바꾸면 테스트가 실패하는 것도 확인했습니다. 통과 화면 1장과 실패 화면 2장은 `제출자료/pytest화면/`에 있습니다.
+
+| 통과 | 실패 ① 공백 제거 주석 | 실패 ② 범위 0~1000 |
+| --- | --- | --- |
+| ![통과](제출자료/pytest화면/pytest_1_통과.png) | ![실패1](제출자료/pytest화면/pytest_2_실패_공백제거주석.png) | ![실패2](제출자료/pytest화면/pytest_3_실패_범위1000.png) |
 
 ## 데이터
 
@@ -62,7 +66,7 @@ test_analysis.py::test_mini_1반_평균 PASSED                              [100
 | `scores_2026.csv` · `scores_2026_cp949.csv` · `mini.csv` | 데이터 (위 「데이터」 참고) |
 | `prompts.txt` | 수업에서 받은 프롬프트 원문 |
 | `pytest.ini` | `pytest`만 쳐도 `제출자료/`는 빼고 돌리게 하는 설정 |
-| `제출자료/` | 12주차 제출 PDF, AI에게 보낸 프롬프트(`responses/prompt_*.txt`)와 받은 응답 원문(`responses/answer_*.md`), 일부러 틀린 pytest 결과 |
+| `제출자료/` | 12주차 제출 PDF, AI에게 보낸 프롬프트(`responses/prompt_*.txt`)와 받은 응답 원문(`responses/answer_*.md`), 일부러 틀린 pytest 결과, pytest 화면 캡처 3장(`pytest화면/`) |
 
 ## ⑥ 만든 사람 · AI를 어디에 썼는지
 
