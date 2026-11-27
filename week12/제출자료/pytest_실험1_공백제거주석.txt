@@ -1,0 +1,16 @@
+.F..                                                                     [100%]
+=================================== FAILURES ===================================
+_________________________________ test_반_값_종류 __________________________________
+
+    def test_반_값_종류():
+>       assert set(깨끗한_df["반"].unique()) == {"1반", "2반"}
+E       AssertionError: assert {'1반', '1반 ', '2반'} == {'1반', '2반'}
+E         
+E         Extra items in the left set:
+E         '1반 '
+E         Use -v to get more diff
+
+test_analysis.py:21: AssertionError
+=========================== short test summary info ============================
+FAILED test_analysis.py::test_반_값_종류 - AssertionError: assert {'1반', '1...
+1 failed, 3 passed in 0.20s
